@@ -46,6 +46,10 @@ nav{
     height: 100px;
 }
 
+.brand2{ 
+    height: 50px;
+}
+
 .nav-links{
     list-style-type: none ;/*This removes the bullet point in the nav bar up top*/
     /*there isnt any cool list types*/
