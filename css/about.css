@@ -1,0 +1,11 @@
+/*This creates a box around the greeting*/
+.banner{
+    padding: 10px 15px;
+    /*background-color: #90321190;*/
+    color:#cacaca;
+    display: inline-block;
+    margin: 10px 300px;
+    /*margin: 25px 10px 10px 50px;*/
+    font: size 100%;
+    text-shadow:7px 7px 7px #cacaca;
+}

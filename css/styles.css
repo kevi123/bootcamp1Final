@@ -1,0 +1,119 @@
+/*The * means it affects everything*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Helper Classes start with a . */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*this class pulls everything to the left*/
+
+.pull-left {
+    float: left;
+}
+
+/*this class pulls everything to the right*/
+.pull-right {
+    float: right;
+}
+
+.centered{
+    margin: 0 auto;
+    /*auto makes margins on left and right even*/
+
+}
+
+.text-centered{
+    text-align: center;
+}
+/*helper classes target with .*/
+
+
+nav{
+    background-color: #00ff00bb;/*rgba*/
+    padding: 0px 100px;
+    /*this is padding contents in the nav bar from the edges*/
+}
+
+/*brand is setting the image height of logo*/
+.brand{ 
+    height: 100px;
+}
+
+.nav-links{
+    list-style-type: none ;/*This removes the bullet point in the nav bar up top*/
+    /*there isnt any cool list types*/
+    margin-top: 50px;/*this pads the nav links up top*/
+}
+
+.nav-links li {
+    display: inline-block;/*moves the nav bar list in the same line*/
+    background-color: #ff00ff88;
+}
+
+/*target the nav links list anchor tags*/
+.nav-links li a{
+    text-decoration: none; /*remove underline*/
+}
+
+
+
+/*this is for the background image*/
+.hero {
+    height:500px;
+    background-image: url("../img/products.jpg");
+    background-size: cover;
+    /*background-position: ;    This also changes size of centerimage displayed*/ 
+}
+
+
+.card{
+    width: calc(80%/4);/* width of cardleaves some space in between*/
+    height:350px;
+    background-color: #00ff00cc;
+    margin: calc(20%/8);  /*every card has a left and right margin ex. 3cards eqauls 6*/ 
+    box-shadow:5px 7px 5px #000;/*gives cards sense of depth*/
+    padding: 35px; /* this pads card context fom outer box*/
+}
+
+.card img{
+    height: 150px;
+    display: block;
+    border-radius: 70%;
+}
+
+
+
+/*This is for the footer*/
+footer section{
+    min-height: 200px;
+    /*minheight meanssections will always be atleast 110px and auto stretcch*/
+    width: calc(100% /3);
+    border: 10px solid purple;
+}
+
+.i-container{
+    text-align:center;
+    width: 100px;
+}
+
+/*This part is for the box diamond design*/
+.box{
+height:50px;
+width: 50px;
+background-color: #2469;
+}
+
+/*this is fo the small fbook icons*/
+.icon{
+    font-size:45px;
+    color: #0f0
+}
+
+
